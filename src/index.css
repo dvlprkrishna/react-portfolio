@@ -11,6 +11,7 @@
 
 }
 
+/*
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
@@ -26,15 +27,25 @@
 
     --color-bg: #212529;
     --color-primary: #f8f9fa;
+    --color-bg-variant: #4B555E;
 
-    /* --color-bg: #212529;
-    --color-bg-variant: #f8f9fada;
-    --color-primary: #f8f9fa;
-    --color-primary-variant: #212529c2;
-    --color-white: #040404;
+
+} */
+
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #383841;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #ffffff;
     --color-light: #rgba(255, 255, 255, 0.6);
-    --transition: all 400ms ease; */
-
+    --transition: all 400ms ease;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 98%;
+    --color-bg: #212529;
+    --color-primary: #f8f9fa;
+    --color-primary: #f19a9a;
 }
 
 html {
@@ -60,6 +71,14 @@ body {
     width: var(--container-width-lg);
 }
 
+hr {
+    width: 3%;
+    margin: 0.5em auto;
+    height: 1px;
+    background: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
 h1,
 h2,
 h3,
@@ -67,10 +86,23 @@ h4,
 h5,
 h6 {
     font-weight: 500;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 1.35rem;
+    font-weight: lighter;
+    margin-bottom: 0.25em;
+}
+
+h4 {
+    letter-spacing: 1.15px;
+    font-weight: 400;
 }
 
 section {
@@ -86,7 +118,7 @@ section>h5 {
 
 section>h2 {
     color: var(--color-primary);
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 .text-light {
@@ -121,7 +153,7 @@ a:hover {
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-white);
+    color: var(--color-bg);
 }
 
 img {

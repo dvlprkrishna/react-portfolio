@@ -20,31 +20,26 @@ import { Pagination } from "swiper";
 const data = [
   {
     avatar: avtr1,
-    name: 'john snow',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, voluptatum qui! Unde facere, harum excepturi provident porro reiciendis quam. Dolorum.'
+    name: 'Ashish Waman',
+    review: 'I have worked with Krishna in Accenture for more than a couple of years. Krishna is a proactive, result-oriented, responsible, and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill in WEB DEVELOPMENT, and React. Krishna is a great asset to any company.'
   },
   {
     avatar: avtr2,
-    name: 'john 2',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, voluptatum qui! Unde facere, harum excepturi provident porro reiciendis quam. Dolorum.'
+    name: 'Zaid Siddiqui',
+    review: 'Krishna worked with me on web projects for one of the biggest Pharma firm for their marketing vertical, and he was routinely throughout that time the most creative and capable web developers we had. He had a fantastic eye for unique designs and was able to implement some of the best strategies our company had.'
   },
   {
-    avatar: avtr3,
-    name: 'john 3',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, voluptatum qui! Unde facere, harum excepturi provident porro reiciendis quam. Dolorum.'
-  },{
-    avatar: avtr4,
-    name: 'john 4',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, voluptatum qui! Unde facere, harum excepturi provident porro reiciendis quam. Dolorum.'
+    avatar: avtr2,
+    name: 'Zaid Siddiqui',
+    review: 'Krishna developed UI design and web page design and development. He played a significant role, often, in developing and implementing overall web strategies, and dealt with the details along with the bigger picture. His coding was excellent, and his designs were unique and innovative, so clients were always happy. He was always thoughtful and considerate, an excellent team player who can also work independently and do a fantastic job. Krishna can seemingly do anything, so he is very highly recommended.'
   }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
-
+      <hr />
       <Swiper className="container mySwiper testimonials__container"
        spaceBetween={30}
        pagination={{

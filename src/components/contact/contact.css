@@ -1,17 +1,11 @@
 .contact__options {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 8%;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-/*
-.contact__options {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-} */
 
 .contact__option {
     background: var(--color-bg-variant);
@@ -33,11 +27,10 @@
 }
 
 .contact__option a {
-    margin-top: 0.7rem;
+    margin-top: 0.35rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
-
 
 
 /* Media Queries - Medium Devices */

@@ -10,8 +10,8 @@ const About = () => {
   return (
 
     <section id='about'>
-        <h5>Get to know</h5>
         <h2>About Me</h2>
+        <hr />
       <div className='container about__container'>
         <div className="about__me">
           <div className="about__me-image">
@@ -23,13 +23,13 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
                 <FaAward className="about__icon" />
-              <h5>Expereience</h5>
-              <small>5+ Years Working</small>
+              <h5>Experience</h5>
+              <small>5+ Years</small>
             </article>
             <article className="about__card">
                 <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>90+ Worldwide</small>
             </article>
             <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
@@ -38,8 +38,8 @@ const About = () => {
             </article>
           </div>
           <div className="about__content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit sit error quisquam eum nostrum perferendis reprehenderit et quasi assumenda placeat, temporibus eaque culpa hic vitae id! Incidunt, rerum ab.</p>
-            <a href="#" className='btn'>Let's Talk</a>
+            <p>Full stack web developer having more than 5+ years of experience in building end to end robust Responsive Web Apps and websites. Having distinct exposure in working for startups and MNC's in pharma, edtech domain.</p>
+            <a href="#experience" className='btn'>More About Me</a>
           </div>
         </div>
 

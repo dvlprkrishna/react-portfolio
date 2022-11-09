@@ -9,16 +9,25 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    border: 0.4rem solid var(--color-primary);
 
 }
 
 .testimonial {
-    background: var(--color-primary-variant);
+    background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1) !important;
+    background: var(--color-primary) !important;
+}
+
+.swiper-pagination-bullet {
+    background: var(--color-primary) !important;
 }
 
 .client__review {
@@ -27,6 +36,8 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 .swiper-pagination-bullet {

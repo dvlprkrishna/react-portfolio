@@ -10,63 +10,69 @@ const data = [
   {
       "id": 1,
       "image": img1,
-      "title": "title1",
-      "github": "https://github.com",
-      "demo": "https://github.com"
+      "title": "Dhanraj Digital Photo Studio",
+      "github": "#",
+      "disabled": true,
+      "demo": "https://dhanrajdigitalphotostudio.com/"
   },
   {
       "id": 2,
       "image": img2,
-      "title": "title2",
-      "github": "https://github.com",
-      "demo": "https://github.com"
+      "title": "Waah Pune Branding",
+      "disabled": true,
+      "github": "#",
+      "demo": "https://www.waahpune.com/"
   },
   {
       "id": 3,
       "image": img3,
-      "title": "title3",
-      "github": "https://github.com",
-      "demo": "https://github.com"
+      "title": "Highvoltage Technologies",
+      "github": "#",
+      "disabled": true,
+      "demo": "#"
   },
   {
       "id": 4,
       "image": img4,
-      "title": "title4",
-      "github": "https://github.com",
-      "demo": "https://github.com"
+      "title": "Knocdoorservices",
+      "github": "#",
+      "disabled": true,
+      "demo": "https://www.knocdoorservices.com/"
   },
   {
       "id": 5,
       "image": img5,
-      "title": "title5",
-      "github": "https://github.com",
-      "demo": "https://github.com"
+      "title": "Teamconsultant.org",
+      "github": "#",
+      "disabled": true,
+      "demo": "https://teamconsultant.org/"
   },
   {
       "id": 6,
       "image": img6,
-      "title": "title6",
-      "github": "https://github.com",
-      "demo": "https://github.com"
+      "title": "Dvlpr.in",
+      "github": "#",
+      "disabled": true,
+      "demo": "https://dvlpr.in/"
   }
 ]
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>M Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Portfolio</h2><hr />
       <div className='container portfolio__container' >
 
       {
-        data.map(({id, image,title,github,demo})=>{
+        data.map(({id, image,title,github,demo,disabled})=>{
           return (<article className="portfolio__item" key={id}>
           <div className="portfolio__item-image">
             <img src={image} className="portfolio__item-image" alt="" />
           </div>
           <h3>{title}</h3>
           <div className='portfolio__item-cta'>
-            <a href={github} className='btn' target='_blank'>Github</a>
+
+            { disabled? (''):(<a href={github} className='btn' target='_blank'>Github</a>) }
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>

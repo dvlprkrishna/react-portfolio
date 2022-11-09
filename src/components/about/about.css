@@ -41,7 +41,7 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-bg-variant);
     cursor: default;
 }
 
@@ -52,17 +52,25 @@
 }
 
 .about__card h5 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
+
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--color-light);
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 1.2rem;
 }
 
 
@@ -95,6 +103,9 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
     }
 
     .about__content {

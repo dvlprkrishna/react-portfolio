@@ -3,12 +3,16 @@ footer {
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    background: var(--color-primary);
+    background: var(--color-white);
 }
 
 footer a,
 small {
     color: var(--color-bg);
+}
+
+footer a:hover {
+    color: var(--color-primary);
 }
 
 .footer__logo {
