@@ -38,7 +38,7 @@ const About = () => {
             </article>
           </div>
           <div className="about__content">
-            <p>Full stack web developer with more than <span className='about__content--underlined'>5+ years of Experience</span> in building robust and efficient websites & web apps. <br /> Having a distict exposure of working in agile teams in MNC's and startups in Pharma and Ed-Tech domains. </p>
+            <p>Full stack web developer with more than <span className='about__content--underlined'>5+ years of Experience</span> in building robust and efficient websites & web apps. <br /> Having a distinct exposure of working in agile teams in MNC's and startups in Pharma and Ed-Tech domains. </p>
             <a href="#experience" className='btn'>More About Me</a>
           </div>
         </div>
