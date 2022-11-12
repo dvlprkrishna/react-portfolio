@@ -29,16 +29,16 @@ const About = () => {
             <article className="about__card">
                 <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>90+ Worldwide</small>
+              <small>11+ Worldwide</small>
             </article>
             <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>85+ Completed</small>
+              <small>47+ Completed</small>
             </article>
           </div>
           <div className="about__content">
-            <p>Full stack web developer having more than 5+ years of experience in building end to end robust Responsive Web Apps and websites. Having distinct exposure in working for startups and MNC's in pharma, edtech domain.</p>
+            <p>Full stack web developer with more than <span className='about__content--underlined'>5+ years of Experience</span> in building robust and efficient websites & web apps. <br /> Having a distict exposure of working in agile teams in MNC's and startups in Pharma and Ed-Tech domains. </p>
             <a href="#experience" className='btn'>More About Me</a>
           </div>
         </div>

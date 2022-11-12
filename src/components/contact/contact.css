@@ -6,6 +6,9 @@
     gap: 1.2rem;
 }
 
+article.contact__option h5 {
+    text-transform: initial;
+}
 
 .contact__option {
     background: var(--color-bg-variant);
@@ -26,10 +29,15 @@
     margin-bottom: 0.5rem;
 }
 
+article.contact__option h4 {
+    letter-spacing: 1.5px;
+}
+
 .contact__option a {
     margin-top: 0.35rem;
     display: inline-block;
     font-size: 0.9rem;
+    letter-spacing: 0.95px;
 }
 
 

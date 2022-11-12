@@ -70,8 +70,18 @@ header {
     bottom: 5rem;
     font-weight: 300;
     font-size: 0.9rem;
+    animation: scrollDown 2s ease-in-out;
 }
 
+@keyframes scrollDown {
+    0% {
+        bottom: 4rem;
+    }
+
+    100% {
+        bottom: 5rem;
+    }
+}
 
 /* Media Queries - Medium Devices */
 

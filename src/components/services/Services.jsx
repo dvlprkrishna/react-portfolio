@@ -16,23 +16,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Custom Web Design & Development</p>
+              <p>Brand Identity Creation</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Corporate Branding & Graphics Design</p>
+              <p>Logo Creation</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wireframing</p>
+              <p>Web Design and Figma Prototype</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Mobile App Design </p>
+              <p>Business Card Design</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Figma Prototyping and Mockups</p>
+              <p>T-Shirt and Merch Designing</p>
             </li>
           </ul>
         </article>
@@ -47,19 +47,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Email Template Creations</p>
+              <p>Email Template Creation</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Compleate Website Creation</p>
+              <p>Webpage Redevelopment / Optimizations</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Webpage redevelopment / optimizations</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Blog Creation</p>
+              <p>Blog Creation / Wordpress Setup</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -69,32 +65,36 @@ const Services = () => {
         </article>
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Social Media and Content</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Website content writing</p>
+              <p>Social Media Graphics Designing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Web Product page descriptions</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>eBook Cover Designing.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Social Media Branding and Graphics.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Search Engine optimizations</p>
+              <p>Search Engine optimizations [SEO]</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>Meta Data and Keywords writing</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>SEO Auditing</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Content Writing</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Web Product descriptions writing</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>eBook Cover Designing</p>
             </li>
           </ul>
         </article>
