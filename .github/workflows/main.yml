@@ -24,6 +24,8 @@ jobs:
         run: yarn
       - name: Run react build script
         run: yarn build
+        env:
+          CI: false
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
