@@ -56,6 +56,7 @@ footer a:hover {
     margin-bottom: 4rem;
     color: var(--color-bg);
     display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 

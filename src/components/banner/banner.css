@@ -1,0 +1,17 @@
+#banner {
+    display: block;
+    justify-content: center;
+    background: rgb(255, 245, 179);
+    background: linear-gradient(90deg, rgba(255, 245, 179, 0.4) 0%, rgba(212, 178, 255, 0.4) 100%);
+    padding: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.banner__text {
+    margin: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(15, 33, 55);
+    font-size: 17px;
+}

@@ -22,7 +22,7 @@ const Footer = () => {
         <a href="https://instagram.com/dvlprkrishna" target='_blank'><FiInstagram /></a>
         <a href="https://twitter.com/dvlprkrishna" target='_blank'><IoLogoTwitter /></a>
       </div>
-      <small className='footer__copyright'> &copy; {new Date().getFullYear()} All rights reserved. - Designed & Coded by Krishna Sahu</small>
+      <small className='footer__copyright'> &copy; {new Date().getFullYear()} All rights reserved. - Made with ❤️ in India - Designed & Coded by Krishna Sahu</small>
     </footer>
   )
 }
