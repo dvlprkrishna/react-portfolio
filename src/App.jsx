@@ -9,11 +9,13 @@ import Services from './components/services/Services'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Banner from './components/banner/Banner'
 
 
 const App = () => {
   return (
     <>
+        <Banner/>
         <Header />
         <Nav />
         <About />
