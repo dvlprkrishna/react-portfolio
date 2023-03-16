@@ -1,5 +1,5 @@
 # Portfolio website created using React.js and deployed using github actions
 
-Visit live site at → [Krishnasahu.in](https://krishnasahu.in/)
+Visit live site at → [reactjs-portfolio-v1.netlify.app](https://reactjs-portfolio-v1.netlify.app/)
 
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dcb4007e-1ffc-429d-ba2f-2ac667f763ad/deploy-status)](https://app.netlify.com/sites/reactjs-portfolio-v1/deploys)
